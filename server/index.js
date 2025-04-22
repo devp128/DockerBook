@@ -11,7 +11,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: ['https://book-store-sable-pi.vercel.app', 'http://localhost:4173'],
+  origin: ['https://docker-book.vercel.app', 'http://localhost:4173'],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
